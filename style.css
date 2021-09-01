@@ -1,0 +1,130 @@
+/* MASTER/FULL PAGE/ STYLES*/
+body{
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*  NAV STYLES*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    text-transform: uppercase;
+}
+
+.left{
+    display: flex;
+}
+
+.nav-wrapper > .left > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.link-nav-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent ;
+    transition: border-bottom 0.5s;
+}
+
+.link-nav-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transform: color 0.5;
+}
+
+.link-nav-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.link-nav-wrapper a:hover {
+    color: black;
+}
+.active-link-nav {
+    border-bottom: 1px solid black;
+}
+.active-link-nav a {
+    color: black !important;
+}
+/* PORTFOLIO STYLES*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio-item-wrapper{
+    position: relative;    
+}
+
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img{
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+.img-text-wrapper .subs{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subs{
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+
+}
+
+/* ABOUT ME PAGE */ 
+
+.two-column-wrapper{
+    display: grid;
+    gap: 05px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-img-wrapper img{
+    height: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+.profile-content-wrapper h1, h2 {
+    color: lightseagreen;
+}
+
+.profile-content-wrapper h3, h4 {
+    color: grey;
+}
+
+.profile-content-wrapper p {
+    color: grey;
+}

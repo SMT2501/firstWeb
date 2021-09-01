@@ -1,0 +1,22 @@
+TODOS
+
+1. Build a project{
+    -creating a folder(done)
+    -adding files(done)
+    connecting files()
+}
+2. Navbar{
+    -32 Links and a name(done)
+}
+3. Portfolio item grid{
+    -images(done)
+    -titles(done)
+    -description(done)
+    -animation()
+    -JS()
+}
+4. About Page{
+    -image()
+    -split column  layout()
+    -content()
+}
