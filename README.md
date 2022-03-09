@@ -1,4 +1,4 @@
-# webDev
+# sam.com
 learningWebDevelopment
 
 Hello there, my name  is Samkele Mthuli. This is my 
